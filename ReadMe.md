@@ -14,41 +14,31 @@ UEditorNetCoreExample Demo说明：
 
 1 程序结构：
 
-![1564904898485](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904898485.png)
 
 
+![程序结构](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904898485.png "程序结构")
 
 1 List
 
-![1564904862206](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904862206.png)
-
-
+![列表](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904862206.png "列表")
 
 2 Add
 
-![1564904944830](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904944830.png)
+![添加](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904944830.png "添加")
 
 2 Edit
 
-![1564904973977](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904973977.png)
-
-
+![编辑](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904973977.png "编辑")
 
 3 展示
 
-![1564905105811](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564905105811.png)
-
-
-
-
+![展示](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564905105811.png "展示")
 
 4 静态文件 （存于bin文件夹下， 规则为文章更新日期）
 
-![1564905200842](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564905200842.png)
+![静态文件](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564905200842.png "静态文件")
 
-
-
-**二配置方法：**
+二配置方法：**
 
 确保 项目生成成后，进行数据库创建
 
