@@ -38,7 +38,7 @@ UEditorNetCoreExample Demo说明：
 
 ![静态文件](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564905200842.png "静态文件")
 
-二配置方法：**
+**二配置方法：**
 
 确保 项目生成成后，进行数据库创建
 
@@ -60,6 +60,6 @@ UEditorNetCoreExample Demo说明：
 
 此时 sql server 数据库生成
 
-**说明：**
+**三说明：**
 
-改程序为ASP.NET Core 2.1 使用UEditor的例子 ，为了简单化，很多优化没有做。由于时间关系，还没有写博客进行细究如有疑问可以发邮件：1003863495@qq.com
+该程序为ASP.NET Core 2.1 使用UEditor的例子 ，为了简单化，很多优化没有做。由于时间关系，还没有写博客进行细究。如有疑问可以发邮件：1003863495@qq.com
