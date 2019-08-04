@@ -54,7 +54,7 @@ UEditorNetCoreExample Demo说明：
 
 使用CodeFirst 模式创建数据库，建立Article表：
 
-![1564904225439](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904225439.png)
+![数据库表](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904202761.png "Article")
 
 在程序中：
 
@@ -64,7 +64,9 @@ UEditorNetCoreExample Demo说明：
 
  3 在更改数据完毕后 ：在 程序包管理中，项目选择Model,输入命令：add-migration "first" 而后输入"update-database"
 
-![1564904405562](C:\Users\Xmap00\AppData\Roaming\Typora\typora-user-images\1564904405562.png)
+
+
+![输入命令](https://github.com/xingforever/Article-s-CURD-By-UEditor-/blob/master/img/1564904405562.png "数据库生成")
 
 此时 sql server 数据库生成
 
