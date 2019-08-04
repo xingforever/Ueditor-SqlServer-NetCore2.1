@@ -1,0 +1,112 @@
+﻿
+@{
+    Layout = null;
+}
+@model IEnumerable<UEditorNetCore.Model.Entity.Article>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/layer/layer.css">
+    
+</head>
+<body>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-lg-10 col-md-offset-1">
+        <div class="row">
+            <div class="col-lg-10 col-md-10">
+                <h1 class="page-header">管理 <span class="badge">@ViewBag.DataCount</span></h1>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th><span class="glyphicon glyphicon-paperclip"></span> <span class="visible-lg">ID</span></th>
+                                <th><span class="glyphicon glyphicon-file"></span> <span class="visible-lg">标题</span></th>
+                                <th><span class="glyphicon glyphicon-list-alt"></span> <span class="visible-lg">创建日期</span></th>
+                                <th><span class="glyphicon glyphicon-list-alt"></span> <span class="visible-lg">更新日期</span></th>
+                                <th><span class="glyphicon glyphicon-pencil"></span> <span class="visible-lg">操作</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Title)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CreateTime)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.UpdateTime)
+                                    </td>
+                                    <td>
+                                        <a class="DetailArticle" href=@Html.Raw("/Home/Show?id="+@item.Id)>查看</a>
+                                        <a class="editArticle" href=@Html.Raw("/Home/Detail?id="+@item.Id)>修改</a>
+                                        <a class="deleteArticle" href="#" rel=@Html.Raw(@item.Id)>删除</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a class="editArticle" href="/Home/index">添加</a>
+        <a class="editArticle" href="/Home/Demo">UEditor 的功能Demo</a>
+       
+    </div>
+
+
+        <script src="~/js/jquery-2.1.4.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/layer.js"></script>
+    <script>
+        $(function () {
+            $(".deleteArticle").click(function () {
+                var name = $(this);
+                var id = name.attr("rel"); //对应id
+                if (event.srcElement.outerText === "删除") {
+                    layer.confirm('此操作不可逆，是否确认？', {
+                        btn: ['删除', '取消'] //按钮
+                    }, function () {
+                        $.ajax({
+                            type: "POST",
+                            url: "Home/Delete",
+                            data: "id=" +id,
+                            cache: false, //不缓存此页面
+                            success: function (result) {
+                                if (result.status == "success") {
+                                    layer.msg('删除成功！！', {
+                                        time: 2000,
+                                        end: function () {
+                                            window.location.reload();
+                                        }
+                                    });
+
+                                } else {
+                                    layer.msg(errorMsg);
+                                }
+                            }
+                        });
+                    }, function () {
+
+                    });
+
+                };
+            });
+
+
+        });
+    </script>
+
+
+</body>
+</html>

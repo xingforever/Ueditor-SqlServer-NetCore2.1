@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Xmap00\\Desktop\\个人网站前端界面系列\\编辑器\\UEditorNetCore-master\\UEditorNetCore-master\\UEditorNetCore.Model\\UEditorNetCore.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Xmap00\\Desktop\\个人网站前端界面系列\\编辑器\\UEditorNetCore-master\\UEditorNetCore-master\\UEditorNetCore.Model\\UEditorNetCore.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xmap00\\Desktop\\个人网站前端界面系列\\编辑器\\UEditorNetCore-master\\UEditorNetCore-master\\UEditorNetCore.Model\\UEditorNetCore.Model.csproj",
+        "projectName": "UEditorNetCore.Model",
+        "projectPath": "C:\\Users\\Xmap00\\Desktop\\个人网站前端界面系列\\编辑器\\UEditorNetCore-master\\UEditorNetCore-master\\UEditorNetCore.Model\\UEditorNetCore.Model.csproj",
+        "packagesPath": "C:\\Users\\Xmap00\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xmap00\\Desktop\\个人网站前端界面系列\\编辑器\\UEditorNetCore-master\\UEditorNetCore-master\\UEditorNetCore.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Xmap00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

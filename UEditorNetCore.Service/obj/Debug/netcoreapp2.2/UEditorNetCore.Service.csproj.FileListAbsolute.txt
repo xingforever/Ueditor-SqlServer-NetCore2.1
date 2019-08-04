@@ -1,0 +1,16 @@
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.Service.deps.json
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.Service.dll
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.Service.pdb
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.dll
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.ISerivice.dll
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.Model.dll
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.ISerivice.pdb
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.pdb
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\bin\Debug\netcoreapp2.2\UEditorNetCore.Model.pdb
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.csprojAssemblyReference.cache
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.csproj.CoreCompileInputs.cache
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.AssemblyInfoInputs.cache
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.AssemblyInfo.cs
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.csproj.CopyComplete
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.dll
+C:\Users\Xmap00\Desktop\个人网站前端界面系列\编辑器\UEditorNetCore-master\UEditorNetCore-master\UEditorNetCore.Service\obj\Debug\netcoreapp2.2\UEditorNetCore.Service.pdb
